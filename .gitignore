@@ -1,0 +1,3 @@
+.venv
+profile_default/
+profile_sympy/history.sqlite
