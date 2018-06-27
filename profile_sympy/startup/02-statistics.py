@@ -34,5 +34,6 @@ shoplift_foreigners = [826, 878, 1051, 1626, 1804, 2396, 2980, 2032, 1791, 1967,
 """ Körperverletzung; Ausländische Tatverdächtige """
 battery_foreigners = [32856, 34221, 37327, 40710, 45897, 52692, 58885, 59580, 62184, 67358, 71004, 73609, 76770, 78688, 79765, 83993, 90059, 95026, 96953, 97266, 96975, 96475, 95824, 95920, 97329, 97727, 99816, 105304, 120054, 153163, 147907]
 
-crime_series = pd.Series(crimes, index=years)
+crime_df = pd.DataFrame(crimes, index=years, columns=['total'])
+crime_df['foreigners'] = foreigners
 
