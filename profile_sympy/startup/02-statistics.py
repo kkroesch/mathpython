@@ -37,3 +37,5 @@ battery_foreigners = [32856, 34221, 37327, 40710, 45897, 52692, 58885, 59580, 62
 crime_df = pd.DataFrame(crimes, index=years, columns=['total'])
 crime_df['foreigners'] = foreigners
 
+worldpop_df = pd.read_csv('sample-data/worldpopulation.csv')
+
