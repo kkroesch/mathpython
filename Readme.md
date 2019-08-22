@@ -19,3 +19,5 @@ Links
   - http://docs.sympy.org/latest/tutorial/
   - https://matplotlib.org/examples/index.html
   - https://www.python-kurs.eu/numerisches_programmieren_in_Python.php (in German)
+  - [https://chrisalbon.com](Python Machine Learning)
+

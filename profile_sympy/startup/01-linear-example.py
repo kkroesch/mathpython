@@ -16,6 +16,9 @@ linear_example = """
         plotter.show()
 
         f(x) + g(x)
+
+        M = Matrix([[3, -2,  4, -2], [5,  3, -3, -2], [5, -2,  2, -2], [5, -2, -3,  3]])
+        P, D = M.diagonalize()
 """
 
 print("    EXAMPLE: Linear Functions")
