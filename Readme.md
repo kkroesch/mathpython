@@ -1,3 +1,6 @@
+**DEPRECATED** This was only to try something out. If you are interested in a cool project doing computer algebra, have a look at https://mathics.org/.
+
+
 Mathpython
 ==========
 
